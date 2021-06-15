@@ -1,0 +1,13 @@
+:root {
+    --main-light-color: #ffffff;
+    --light-accent-color: #D2C3A9;
+    --dark-accent-color: #705029;
+    --main-dark-color: #303030;
+    --title-font: 'Rufina', serif;
+    --body-font: 'Nunito', sans-serif;
+    --style-font: 'Nanum Brush Script', cursive;
+    --background-color: (var(--main-light-color);
+    --body-text-color: var(--main-dark-color);
+    --title-text-color: var(--dark-accent-color);
+}
+

@@ -6,3 +6,6 @@ from . import views
 urlpatterns = [
     path('', views.index, name='index'),
 ]
+
+def index(request):
+    return render(request, 'empire/index.html')

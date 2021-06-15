@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Empire Espresso - DEMO</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rufina&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Nunito:ital,wght@0,200;1,300&family=Rufina&display=swap" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+
+    <!---- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <style>
+
+
+
+    a.navbar-brand {
+    font-family: 'Rufina', serif;
+    font-size: 3rem;
+    margin-right: 2rem;
+    letter-spacing: 1rem;
+    }
+
+    .nav-link {
+        font-family: 'Rufina', serif;
+        font-size: 1.25rem;
+    }
+
+    .nav-item{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div id="logotitle" class="container-fluid">
+                <a class="navbar-brand" href="#">EMPIRE</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="shop.html">Shop</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="coffee.html">Coffee</a></li>
+                            <li><a class="dropdown-item" href="clothing.html">Clothing</a></li>
+                            <li><a class="dropdown-item" href="mugs.html">Mugs</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+                <div class="shopping-cart">
+                    <span class="shopping-cart"></span>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+     <aside aria-label="photo slideshow">
+        <div id="empirehomepage" class="carousel slide" data-bs-ride="carousel" data-bs-wrap="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#empirehomepage" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Home"></button>
+                <button type="button" data-bs-target="#empirehomepage" data-bs-slide-to="1" aria-label="Menu"></button>
+                <button type="button" data-bs-target="#empirehomepage" data-bs-slide-to="2" aria-label="Blog"></button>
+              </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000" data-bs-pause="hover">
+                <img src="cafephoto.png" class="d-block w-100" alt="wideview of cafe with espresso machine and barista">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Empire Espresso</h5>
+                    <p>Welcome to the Neighborhood Cafe</p>
+                  </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2500" data-bs-pause="hover">
+                <img src="lattepour.png" class="d-block w-100" alt="latte being poured with a tulip design">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Our Cafe Menu</h5>
+                    <p>Coffee and food for everyone's tastes...</p>
+                  </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="5000" data-bs-pause="hover">
+                <div class="d-flex justify-content-center">
+                <img src="FrenchPressPourCarousel.png" class="d-block" alt="french press being poured into white cups">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Our Blog</h5>
+                    <p>This week, all about making the best French Press!</p>
+                  </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#empirehomepage" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#empirehomepage" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+    </aside>
+    <main>
+        <div class="container">
+            <div class="row justify-content-around">
+                <div id="empire-map" class="col-lg-4 col-md-4 col-sm-9">
+                    <img class="img-fluid" src="empiremap.png">
+                </div>
+                <div id="empire-info" class="col-lg-5 col-md-4 col-sm-9 align-content-center">
+                    <h1>Empire Espresso</h1>
+                    <p>1234 Edmonds Street</p>
+                    <p>Seattle, WA 98118</p>
+
+                    <div id="empire-hours">
+                        <p>Hours: 6:00 AM to 8:00 PM Daily</p>
+                        <p><i>Waffle Bar on Weeknds</i></p>
+    
+                    </div>
+    
+                </div>
+
+            </div>
+           
+            
+        </div>
+
+
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div id="social-links" class="col-lg-5 col-md-6 col-sm-12">
+
+                </div>
+            </div>
+            <div class="row">
+                <div id="copyright" class="col-12">
+                    
+                </div>
+            </div>
+        </div>
+
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
