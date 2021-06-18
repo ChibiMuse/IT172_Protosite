@@ -85,7 +85,7 @@ h5.card-title {
     align-items: center;
 }
 
-div.cart-item {
+.cart-row {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -113,7 +113,7 @@ li.cart-item{
 
 }
 
-#remove-item {
+.remove-item {
     background-color: var(--main-bg-color);
     border: none;
     font-family: var(--body-font);
@@ -157,11 +157,12 @@ li.cart-item{
 
 #checkout-btn {
     margin-top: 2%;
-    padding: 1rem;
+    padding: .5rem;
     background-color: var(--light-accent-color);
     font-family: var(--title-font);
     color: var(--main-dark-color);
     border-radius: 5px;
+    text-align: center;
 }
 
 .total-checkout.row {
